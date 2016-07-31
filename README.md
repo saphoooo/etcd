@@ -6,6 +6,7 @@
 
 ```
 $ sudo docker run -d --restart=always \
+  -net=host \
   -p 4001:4001 \
   -p 7001:7001 \
   -p 2380:2380 \
@@ -23,6 +24,7 @@ $ sudo docker run -d --restart=always \
 
 ```
 $ sudo docker run -d --restart=always \
+  -net=host \
   -p 4001:4001 \
   -p 7001:7001 \
   -p 2380:2380 \
@@ -40,6 +42,7 @@ $ sudo docker run -d --restart=always \
 
 ```
 $ sudo docker run -d --restart=always \
+  -net=host \
   -p 4001:4001 \
   -p 7001:7001 \
   -p 2380:2380 \

@@ -29,7 +29,7 @@ $ sudo docker run -d --restart=always \
   -p 7001:7001 \
   -p 2380:2380 \
   -p 2379:2379 \
-  -e POS=& \
+  -e POS=1 \
   -e IP_MEMBER=192.168.0.2 \
   -e IP_MEMBER_1=192.168.0.1 \
   -e IP_MEMBER_2=192.168.0.2 \

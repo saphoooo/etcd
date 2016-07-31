@@ -1,3 +1,4 @@
+#!/bin/bash
 HELP=" - POS: must be a number between 0 and 2, 0 for the first member, 1 for the second and 2 for the third\n
  - IP_MEMBER: is the IP address of the current node \n
  - IP_MEMBER_1: the IP address of the first member\n
